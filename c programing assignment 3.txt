@@ -1,0 +1,44 @@
+1:-What are the primitive data types in C Language?
+
+Answer:-there are 5 types of main primitive data type
+  1 int
+  2 char
+  3 float
+  4 double
+  5 void
+
+2:-What kind of statements can be written outside the function body?
+
+Answer:- you can declare global variable outside the function body.
+
+3:-What is the size of float type variable?
+
+Answer:- size of float type is 4 byte.
+
+4:-What is the value of an uninitialised variable?
+
+Answer:- Garbage value is the value of  uninitialised variable.
+
+5:-What is the difference between float and double?
+
+Answer:- there are two main difference due to which both are different.
+  1 size:- size of float type is 4 byte however size of double type is 8 byte.
+  2 accuracy:- double has more accuracy than float because it's size is more than float.
+
+6:-What is the full form of ASCII?
+
+Answer:-  AMERICAN STANDARD CODE FOR INFORMATION INTERCHANGE
+
+
+7:-What is the difference between a keyword and a function?
+
+8:-Explore the use of type modifiers in C language.
+
+9:- Can you assign a character constant in an int variable?
+
+Answer:- yes we can assign a character constant in an int variable and this is possible due to the ascii code.
+
+10:-State the following statement as true or false -”Every block of code is a function”.
+
+Answer:- false, every block of code is
+not a function. It can be non primitive data type block.
