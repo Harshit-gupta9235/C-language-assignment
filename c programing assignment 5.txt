@@ -1,0 +1,113 @@
+
+1:-Write  a program to calculate the sum of two numbers.
+Answer:-
+#include<stdio.h>
+
+void main()
+{ int a,b,c;
+printf("enter two values\n");
+scanf("%d\n%d",&a,&b);
+    c=a+b;
+    printf("%d",c);
+   
+}
+2:-Write a program to calculate the area of a circle.
+Answer:-
+#include<stdio.h>
+
+void main()
+{ int r,area;
+printf("enter radius of circle\n");
+scanf("%d",&r);
+    area=3.14*r*r;
+    printf("%d",area);
+   
+}
+3:-Write a program to calculate the volume of a Cuboid.
+Answer:-
+#include<stdio.h>
+
+void main()
+{ int l,b,h,volume;
+printf("enter length,height,breath of circle\n");
+scanf("%d%d%d",&l,&b,&h);
+  volume=l*b*h;
+    printf("%d",volume);
+   
+}
+4:-Write a program to calculate the simple interest
+Answer:-
+#include<stdio.h>
+
+void main()
+{ float A,P,R,T;
+printf("enter principle,rate and time \n");
+scanf("%f%f%f",&P,&R,&T);
+A=P*(1+r*t);
+    printf("%f",A);
+   
+}
+5:-Write a program to calculate the area of a rectangle
+Answer:-
+#include<stdio.h>
+
+void main()
+{ int l,b,area;
+printf("enter length,height of rectangle\n");
+scanf("%d%d",&l,&b);
+  area=l*b;
+    printf("%d",area);
+   
+}
+6:-Write a program to calculate the average of three numbers
+Answer:-
+#include<stdio.h>
+
+void main()
+{ float l,b,h,avg,sum;
+printf("enter three values\n");
+scanf("%f%f%f",&l,&b,&h);
+  sum=(l+b+h);
+avg=(sum/3);
+    printf("%f",avg);
+   
+}
+7:-Write a program to calculate the square of a given number.
+Answer:-
+#include<stdio.h>
+
+void main()
+{ float l,square;
+      printf("enter a value\n");
+      scanf("%f",&l);
+      square=(l*l);
+      printf("%f",square);
+   
+}
+8:-Write a program which takes a character as input and print its ASCII code.
+Answer:-
+#include<stdio.h>
+
+void main()
+{ char c;
+printf("enter any character\n");
+scanf("%c",&c);
+    printf("%d",c);
+   
+}
+9:-Write a program to calculate the profit percentage upon selling a product. Cost price and selling price are given by the user.
+
+
+10:-Write a program to calculate the area of a triangle where base and height of the triangle are given.
+Answer:-
+#include<stdio.h>
+
+void main()
+{ float a,b,c,area;
+printf("enter length and height of triangle\n");
+scanf("%f%f",&a,&b);
+c=(a*b);
+area=c/2;
+    printf("%f",area);
+   
+}
