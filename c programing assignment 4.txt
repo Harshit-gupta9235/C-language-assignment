@@ -1,0 +1,83 @@
+1:-Write a C program to print Hello Students on the screen.
+Answer:-
+#include<stdio.h>
+
+void main()
+{
+    printf("Hello student");
+   
+}
+
+2:-Write a C Program to print Hello on the first line and Students in the second line.
+Answer:-
+#include<stdio.h>
+
+void main()
+{
+    printf("Hello\nstudent");
+   
+}
+3:-Write a C program to print “MySirG” on the screen
+Answer:-
+#include<stdio.h>
+
+Int main()
+{
+    printf("MySirG");
+   return 0;
+}
+4:- Write a C program to print “Teacher’s Day” on the screen
+Answer:-
+#include<stdio.h>
+
+void main()
+{
+    printf("Teacher's Day");
+   
+}
+5:- Write a C program to print \n on the screen
+Answer:-
+#include<stdio.h>
+
+void main()
+{
+    printf("\\n");
+   
+}
+6:-Write a C program to print %d on the screen
+Answer:-
+#include<stdio.h>
+
+void main()
+{
+    printf("%%d");
+   
+}
+7:-Write a C program containing declaration of three variables (of type int, char and
+float), also assign some values to them and print values of all three variables using
+single printf().
+Answer:-
+#include<stdio.h>
+
+void main()
+{ int a=5;
+  char b='g';
+  float c=5.0;
+  printf("%d,%c,%f",a,b,c);
+   
+}
+8:- Explore following format specifiers on internet - %i, %g, %lf
+
+9:- Write a C program to print character stored in a char variable, also print its ASCII
+code.
+Answer:-
+#include<stdio.h>
+
+void main()
+{ char b;
+printf("enter character:-");
+scanf("%c",&b);
+    printf("%d",b);
+   
+}
+10:- How to convert a Decimal number into a Binary number and vice versa.
